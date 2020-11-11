@@ -1,3 +1,3 @@
 # senderodeluz
 
-https://alkaestry.github.io/senderodeluz
+https://alkaestry.github.io/astropapyrus
