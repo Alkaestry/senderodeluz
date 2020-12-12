@@ -16,7 +16,7 @@
 	{
 		margin: 0;
 		padding: 0;
-		background: #161616;
+		background: #463d3d;
 	}
 
 	body,input,textarea,select
@@ -27,6 +27,22 @@
 		line-height: 1.75em;
 		color: #777;
 	}
+
+    .estrella
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+.card-title
+    {
+        font-weight: bold;
+    }
+
+
+    canvas {
+        border:1px solid red;
+    }
 
 	h1,h2,h3,h4,h5,h6
 	{
