@@ -377,6 +377,7 @@ function activar()
     }
     else{
         $('#staticBackdrop').modal('show');
+        titleBar.style.visibility = "hidden";
         GenioFisico();
     }
 }
