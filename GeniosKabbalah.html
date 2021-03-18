@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Esta Página Web está bajo el mando y dirección de Ha Kadosh Baruj Hu.
-	El Santo Bendito sea El,
-	Melej maljé ha melajim,
-	El Rey de los reyes de los reyes.
+	Baruj HaShem. EL MELEJ NEEMAN.
 -->
 <html>
 	<head>
@@ -16,9 +13,13 @@
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="bootstrap/4.5.3/js/bootstrap.js"></script>
 		<script src="bootstrap/4.5.3/js/bootstrap.min.js"></script>
+		<script src="js/angelfisico.js"></script>
+		<script src="js/html2canvas.js"></script>
+		
 		<script data-ad-client="ca-pub-1877199396104427" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		
 <link rel="stylesheet" href="bootstrap/4.5.3/css/bootstrap.css" />
@@ -98,15 +99,17 @@
 						<div id="content" class="8u skel-cell-important">
 							<section>
 								<header class="major">
-									<center><img class="centered" src="images/banner_org.jpg" width="200px"></center>
+									<center>
+									<p>ב''ה</p>
+									<img class="centered" src="images/banner_org.jpg" width="200px"></center>
 									<span class="byline">Los astros son el lienzo donde dibujas tu propio destino.</span>
 								</header>
 								
-<div style="text-align: justify">
+<div style="text-align: justify; font-size: 22px;">
 <p>
 Los Genios, comúnmente conocidos como ángeles guardianes, te acompañan desde tu nacimiento. Ellos te conocen, saben todo acerca de tu alma y están ahí contigo para ayudarte en tu camino de luz.
 </p>
-<center><img class="centered" src="images/GeniosKabbalah.jpg"  width="369px"></center>
+<center><img class="centered" src="images/GeniosKabbalah.jpg"  width="360px"></center>
 <br><p></p><br>
 
 <p>
@@ -133,7 +136,60 @@ Pero para que ellos puedan actuar es necesario que los actives, es decir, que a 
 </p>
 
 </div>
+			
 								
+													
+<!-- BUSCAR GENIO DE LA KABBALAH -->
+                                                                            
+<h1>Encuentra aquí el Genio Físico que te corresponde según tu fecha de nacimiento:</h1>
+<a>ℹ Primero selecciona tu fecha de nacimiento:</a>
+<p><input id="fecha" type="date"></p>
+
+<!-- Button trigger modal -->
+<a> ℹ Y luego da click en este botón:</a>
+<button type="button" onclick="activar()" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop1111">
+  Averigua tu Genio de la Kabbalah
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     <div id="guardarImagen" style="background-image: url(images/sky1.jpg)">
+      <div class="modal-header">
+        <h6 class="modal-title" id="staticBackdropLabel">TU GENIO FÍSICO DE LA KABBALAH..</h6><br/>astropapyrus.com
+        <button type="button" onclick="titleBar.style.visibility = 'visible';" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>
+        <div id="GenioFisicoKabbalah">
+           <p>El primer Genio (ángel) que te acompaña desde tu nacimiento, y que puedes invocar en todo momento para que te ayude en el día a día, se llama:</p>
+            <div class="contenedor">
+              <img src="images/estrella6.svg" width="222px"/>
+              <div class="centrado" id="GenioKab">...</div>
+            </div>
+            <div id="salmo">Salmo</div>
+            <br/><p style="text-align: justify;">Si deseas conocer tu Genio emocional y Genio mental, y además la carta kabalística para activar sus influencias angelicales en tu vida, puedes contactarme al correo info@astropapyrus.com o también puedes enviarme un mensaje a Whatsapp escaneando el código que aparece en la imagen. Recibirás un pergamino en PDF con todos los detalles según tu fecha y hora de nacimiento.</p>
+            <div>
+            <img src="images/57.jpg"/> 
+            <img src="images/71.jpg"/> 
+            <img style="position:absolute; right:12px; bottom:26px;" src="images/contactoWS(100PX).png"/>
+            </div>
+        </div>
+        </center>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" onclick="titleBar.style.visibility = 'visible';" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button id="boton-descarga" type="button" class="btn btn-primary">Guardar como imagen</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FINAL DEL POPUP (MODAL) GENIO FISICO -->																				
 							</section>
 						</div>
 					</div>
@@ -175,6 +231,48 @@ Pero para que ellos puedan actuar es necesario que los actives, es decir, que a 
 			<!-- Copyright -->
 				<div id="copyright" class="exp">astropapyrus.com ®</div>			
 		</div>
+<script>
+///******************************************************************///
+//DESCARGAR DIV COMO IMAGEN CON CANVAS:
+    
+    function downloadCanvas(canvasId, filename) {
+    // Obteniendo la etiqueta la cual se desea convertir en imagen
+    var domElement = document.getElementById(canvasId);
+    let $canvas = document.createElement("canvas") ;
+    // Utilizando la función html2canvas para hacer la conversión
+    html2canvas(domElement, {
+        onrendered: function(domElementCanvas) {
+            // Obteniendo el contexto del canvas ya generado
+            var context = domElementCanvas.getContext('2d');
+            // Creando enlace para descargar la imagen generada
+            var link = document.createElement('a');
+            link.href = domElementCanvas.toDataURL("image/png");
+            link.download = filename;
+ 
+            // Chequeando para browsers más viejos
+            if (document.createEvent) {
+                var event = document.createEvent('MouseEvents');
+                // Simulando clic para descargar
+                event.initMouseEvent("click", true, true, window, 0,
+                    0, 0, 0, 0,
+                    false, false, false, false,
+                    0, null);
+                link.dispatchEvent(event);
+            } else {
+                // Simulando clic para descargar
+                link.click();
+            }
+        }
+    });
+}
+ 
+// Haciendo la conversión y descarga de la imagen al presionar el botón
+$('#boton-descarga').click(function() {
+    downloadCanvas('guardarImagen', 'GenioKabbalah1.png');
+});
 
+
+    
+</script>
 	</body>
 </html>
