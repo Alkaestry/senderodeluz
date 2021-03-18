@@ -13,6 +13,7 @@
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="bootstrap/4.5.3/js/bootstrap.js"></script>
 		<script src="bootstrap/4.5.3/js/bootstrap.min.js"></script>
@@ -104,7 +105,7 @@
 									<span class="byline">Los astros son el lienzo donde dibujas tu propio destino.</span>
 								</header>
 								
-<div style="text-align: justify; font-size: 26px;">
+<div style="text-align: justify; font-size: 22px;">
 <p>
 Los Genios, comúnmente conocidos como ángeles guardianes, te acompañan desde tu nacimiento. Ellos te conocen, saben todo acerca de tu alma y están ahí contigo para ayudarte en tu camino de luz.
 </p>
@@ -141,13 +142,14 @@ Pero para que ellos puedan actuar es necesario que los actives, es decir, que a 
 <!-- BUSCAR GENIO DE LA KABBALAH -->
                                                                             
 <h1>Encuentra aquí el Genio Físico que te corresponde según tu fecha de nacimiento:</h1>
-
-<p><input id="fecha" type="date"> ℹ Selecciona tu fecha de nacimiento.</p>
+<a>ℹ Primero selecciona tu fecha de nacimiento:</a>
+<p><input id="fecha" type="date"></p>
 
 <!-- Button trigger modal -->
+<a> ℹ Y luego da click en este botón:</a>
 <button type="button" onclick="activar()" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop1111">
   Averigua tu Genio de la Kabbalah
-</button> <a> ℹ Da click en este botón.</a>
+</button>
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -155,8 +157,8 @@ Pero para que ellos puedan actuar es necesario que los actives, es decir, que a 
     <div class="modal-content">
      <div id="guardarImagen" style="background-image: url(images/sky1.jpg)">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Tu (ángel) Genio Físico de la Kabbalah.</h5><h9>astropapyrus.com</h9>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <h6 class="modal-title" id="staticBackdropLabel">TU GENIO FÍSICO DE LA KABBALAH..</h6><br/>astropapyrus.com
+        <button type="button" onclick="titleBar.style.visibility = 'visible';" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -180,7 +182,7 @@ Pero para que ellos puedan actuar es necesario que los actives, es decir, que a 
       </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" onclick="titleBar.style.visibility = 'visible';" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         <button id="boton-descarga" type="button" class="btn btn-primary">Guardar como imagen</button>
       </div>
     </div>
