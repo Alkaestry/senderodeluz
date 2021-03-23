@@ -384,9 +384,7 @@ function activar()
 			titleBar.style.visibility = "hidden";
 			GenioFisico();
 			}
-		}
-
-	if (!document.getElementById("titleBar"))
+		}else
 		{
 			if (fecha.value == "")
 			{
@@ -395,7 +393,7 @@ function activar()
 			else
 			{
 				GenioFisico();
+				$('#staticBackdrop').modal('show');
 			}
 		}
-}
-//final_script_angel_físico.
+}//final_funcion_activar.
