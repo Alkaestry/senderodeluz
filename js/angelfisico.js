@@ -373,27 +373,29 @@ function activar()
 {
 	if (document.getElementById("titleBar"))
 		{
-		if (fecha.value == "")
+			if (fecha.value == "")
 			{
-				$('#staticBackdrop').modal('hide');
+			$('#staticBackdrop').modal('hide');
+			alert("Establece una fecha.");
+			}
+			else
+			{
+			$('#staticBackdrop').modal('show');
+			titleBar.style.visibility = "hidden";
+			GenioFisico();
+			}
+		}
+
+	if (!document.getElementById("titleBar"))
+		{
+			if (fecha.value == "")
+			{
 				alert("Establece una fecha.");
 			}
 			else
 			{
-				$('#staticBackdrop').modal('show');
-				titleBar.style.visibility = "hidden";
 				GenioFisico();
 			}
 		}
-	else
-	{
-		if (fecha.value == "")
-		{
-			alert("Establece una fecha.");
-		}
-		else
-		{
-			GenioFisico();
-		}
-	}
 }
+//final_script_angel_físico.
