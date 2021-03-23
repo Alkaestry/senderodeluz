@@ -371,23 +371,29 @@ if (_mes == 12){
 // Mostrar el MODAL sólo si se ha establecido una fecha, y ejecutar la funcion:
 function activar()
 {
-    if (fecha.value == ""){
-        $('#staticBackdrop').modal('hide')
-        alert("Establece una fecha.");
-    }
-    else{
-        GenioFisico();
-	    
-	if ( document.getElementById("titleBar") ){
-		$('#staticBackdrop').modal('show');
-        	titleBar.style.visibility = "hidden";
+	if (document.getElementById("titleBar"))
+		{
+		if (fecha.value == "")
+			{
+				$('#staticBackdrop').modal('hide');
+				alert("Establece una fecha.");
+			}
+			else
+			{
+				$('#staticBackdrop').modal('show');
+				titleBar.style.visibility = "hidden";
+				GenioFisico();
+			}
 		}
-    }
+	else
+	{
+		if (fecha.value == "")
+		{
+			alert("Establece una fecha.");
+		}
+		else
+		{
+			GenioFisico();
+		}
+	}
 }
-    
-    
-    
-    
-    
-    
-    
