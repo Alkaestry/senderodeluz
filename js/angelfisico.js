@@ -376,9 +376,12 @@ function activar()
         alert("Establece una fecha.");
     }
     else{
-        $('#staticBackdrop').modal('show');
-        titleBar.style.visibility = "hidden";
         GenioFisico();
+	    
+	if ( document.getElementById("titleBar") ){
+		$('#staticBackdrop').modal('show');
+        	titleBar.style.visibility = "hidden";
+		}
     }
 }
     
