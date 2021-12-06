@@ -1,110 +1,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+  
 <url>
-<loc>https://astropapyrus.com/</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://astropapyrus.com/index.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://astropapyrus.com/biblioteca.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://astropapyrus.com/GeniosKabbalah.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://astropapyrus.com/alefbet.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://astropapyrus.com/MagiaEspiritual.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://astropapyrus.com/SecretoAlquimia.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-
-<url>
-<loc>http://astropapyrus.com/</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>http://astropapyrus.com/index.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>http://astropapyrus.com/biblioteca.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>http://astropapyrus.com/GeniosKabbalah.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>http://astropapyrus.com/alefbet.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>http://astropapyrus.com/MagiaEspiritual.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>http://astropapyrus.com/SecretoAlquimia.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/placeholder.png</image:loc>
+	</image:image>
 </url>
   
 <url>
-<loc>https://www.astropapyrus.com/</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/index.html</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/banner_org.jpg</image:loc>
+	</image:image>
 </url>
+  
 <url>
-<loc>https://www.astropapyrus.com/index.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/biblioteca.html</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/placeholder.png</image:loc>
+	</image:image>
 </url>
+  
 <url>
-<loc>https://www.astropapyrus.com/biblioteca.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/GeniosKabbalah.html</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/GeniosKabbalah.jpg</image:loc>
+	</image:image>
 </url>
+  
 <url>
-<loc>https://www.astropapyrus.com/GeniosKabbalah.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/alefbet.html</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/alefbet.jpg</image:loc>
+	</image:image>
 </url>
+  
 <url>
-<loc>https://www.astropapyrus.com/alefbet.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/MagiaEspiritual.html</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/AmuletRaziel.jpg</image:loc>
+	</image:image>
 </url>
+  
 <url>
-<loc>https://www.astropapyrus.com/MagiaEspiritual.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alkaestry.github.io/astropapyrus/SecretoAlquimia.html</loc>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/tetrak.jpg</image:loc>
+	</image:image>
 </url>
-<url>
-<loc>https://www.astropapyrus.com/SecretoAlquimia.html</loc>
-<lastmod>2021-03-23T07:18:13+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+
+
 </urlset>
+
+ 
