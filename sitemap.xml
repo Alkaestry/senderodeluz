@@ -1,10 +1,21 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<!--  LLamadas  -->
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus/</loc>
+  <loc>https://alkaestry.github.io/astropapyrus</loc>
 	<image:image>
 		<image:loc>https://alkaestry.github.io/astropapyrus/images/placeholder.png</image:loc>
+		<image:caption>estrella de David</image:caption>
+		 <image:title>Estrella</image:title>
+	</image:image>
+	<image:image>
+		<image:loc>https://alkaestry.github.io/astropapyrus/images/banner_org.jpg</image:loc>
+		<image:caption>cuadrado mágico</image:caption>
+		 <image:title>Kabbalah</image:title>
 	</image:image>
 </url>
   
