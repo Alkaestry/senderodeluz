@@ -6,68 +6,59 @@
 <!--  LLamadas  -->
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus</loc>
+  <loc>https://alkaestry.github.io/autoconocimiento</loc>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/placeholder.png</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/placeholder.png</image:loc>
 		<image:caption>estrella de David</image:caption>
 		 <image:title>Estrella</image:title>
 	</image:image>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/banner_org.jpg</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/banner_org.jpg</image:loc>
 		<image:caption>cuadrado mágico</image:caption>
 		 <image:title>Kabbalah</image:title>
 	</image:image>
 </url>
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus/index.html</loc>
+  <loc>https://alkaestry.github.io/autoconocimiento/index.html</loc>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/banner_org.jpg</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/banner_org.jpg</image:loc>
 		<image:caption>cuadrado mágico</image:caption>
 		<image:title>Kabbalah</image:title>
 	</image:image>
 </url>
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus/biblioteca.html</loc>
+  <loc>https://alkaestry.github.io/autoconocimiento/biblioteca.html</loc>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/placeholder.png</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/placeholder.png</image:loc>
 		<image:caption>Kabbalah</image:caption>
 		<image:title>Libros en pdf</image:title>
 	</image:image>
 </url>
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus/GeniosKabbalah.html</loc>
+  <loc>https://alkaestry.github.io/autoconocimiento/alefbet.html</loc>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/GeniosKabbalah.jpg</image:loc>
-		<image:caption>72 Ángeles, 72 Nombres de Dios, ángeles guardianes según la fecha de nacimiento</image:caption>
-		<image:title>72 ángeles de la Kabbalah</image:title>
-	</image:image>
-</url>
-  
-<url>
-  <loc>https://alkaestry.github.io/astropapyrus/alefbet.html</loc>
-	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/alefbet.jpg</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/alefbet.jpg</image:loc>
 		<image:caption>Letras hebreas, y las 231 puertas de la sabiduría</image:caption>
 		<image:title>Kabbalah</image:title>
 	</image:image>
 </url>
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus/MagiaEspiritual.html</loc>
+  <loc>https://alkaestry.github.io/autoconocimiento/MagiaEspiritual.html</loc>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/AmuletRaziel.jpg</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/AmuletRaziel.jpg</image:loc>
 		<image:caption>amuletos para mujeres embarazadas, segulot y amuletos del libro del ángel Raziel</image:caption>
 		<image:title>Kabbalah</image:title>
 	</image:image>
 </url>
   
 <url>
-  <loc>https://alkaestry.github.io/astropapyrus/SecretoAlquimia.html</loc>
+  <loc>https://alkaestry.github.io/autoconocimiento/SecretoAlquimia.html</loc>
 	<image:image>
-		<image:loc>https://alkaestry.github.io/astropapyrus/images/tetrak.jpg</image:loc>
+		<image:loc>https://alkaestry.github.io/autoconocimiento/images/tetrak.jpg</image:loc>
 		<image:caption>Tetragrammaton, el Nombre de Dios el Tetragrama</image:caption>
 		<image:title>Kabbalah</image:title>
 	</image:image>
